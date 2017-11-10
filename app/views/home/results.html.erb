@@ -27,13 +27,13 @@
 <div class="container">
 <h3>Restaurants serving <%= params[:term] %></h3>
 <p>Near <%= params[:address] %></p>
-<%= link_to "Search Again", yelp_path, class: 'btn btn-primary' %>
+<%= link_to "Search Again", root_path, class: 'btn btn-primary' %>
 </div>
 <br>
 <div class="container">
 <div class="row" >
   <% @restaurants.each do |r| %>
-  <div class="card text-white bg-dark mb-6" style="width: 20rem;">
+  <div class="card" style="width: 20rem;">
     <%= image_tag r.image, style: "height: 180px; width: 318px;" %>
     <div class="card-body">
       <center><h4 class="card-title"><%= r.name %></h4>
