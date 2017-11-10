@@ -35,7 +35,7 @@
   <% @restaurants.each do |r| %>
   <div class="card" style="width: 20rem;">
     <%= image_tag r.image, style: "height: 180px; width: 318px;" %>
-    <div class="card-body" color="black">
+    <div class="card-body" text-color="black">
       <center><h4 class="card-title"><%= r.name %></h4>
       <p class="card-text"><%= r.address %>, <%= r.city %><br><%= r.price %></p>
       <%= link_to "Yelp Profile", r.url, class: "btn btn-primary" %></center>
