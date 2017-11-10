@@ -184,29 +184,6 @@ body {
   margin-right: 15px;
 }
 
-.about-photo {
-  width: 150px;
-  border: 7px;
-  border-style: solid;
-  border-color: FFFF;
-  margin: 10px;
-}
-
-#background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: image-url('home.jpg') no-repeat;
-  background-size: cover;
-}
-
 .masthead {
   background-color: #333;
 }
@@ -219,8 +196,6 @@ body {
   color: green;
   font-weight: bold;
 }
-
-// Customizations
 
 .carousel-item {
 	object-fit: none;
